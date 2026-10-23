@@ -1,0 +1,13 @@
+# Pinned compatible versions: avoid Starlette/FastAPI API mismatches on fresh installs.
+fastapi==0.115.12
+starlette==0.46.2
+uvicorn[standard]==0.34.0
+pydantic==2.11.3
+SQLAlchemy==2.0.40
+PyMuPDF==1.25.5
+python-multipart==0.0.20
+httpx==0.28.1
+pytest==8.3.5
+Pillow==11.1.0
+python-dotenv==1.0.1
+pytesseract==0.3.13  # Python wrapper; install the Tesseract executable separately for OCR fallback
